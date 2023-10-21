@@ -1,0 +1,64 @@
+.header {
+    margin-bottom: 120px;
+}
+.header__container {
+    height: 80px;
+}
+
+.header__navbar-wrapper .navbar-list {
+    gap: 35px;
+}
+
+
+.header__navbar-wrapper .navbar-item__title {
+    gap: 5px;
+}
+
+.header__navbar-wrapper .navbar-item__title:hover,
+.header__navbar-wrapper .navbar-item__title:hover u {
+    color: var(--main-blue, #2D1AA7);
+}
+
+.header__navbar-wrapper .navbar-item__title:hover svg path {
+    stroke: var(--main-blue, #2D1AA7);
+}
+
+.header__navbar-wrapper .navbar-item__title:hover svg {
+    transform: rotate(180deg);
+}
+
+.header__navbar-wrapper .navbar-item__title svg {
+    width: 6px;
+    height: 3px;
+}
+
+.header__navbar-wrapper .navbar-item__title u {
+    color: var(--font, #202326);
+    font-family: Onest;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.header__navbar-wrapper .navbar-item.with-drop {
+    position: relative;
+}
+
+.header__navbar-wrapper .navbar-item.with-drop:hover>.dropdown-menu.dropdown-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+.header__navbar-wrapper .dropdown-navbar__item-title {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.header__proposal-wrapper .proposal__btn.btn {
+    padding: 10px 20px 12px 20px;
+    cursor: pointer;
+}
+
+.header__mobile-menu-btn {display: none;}

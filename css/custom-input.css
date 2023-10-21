@@ -1,0 +1,25 @@
+.form__input-wrapper {
+    position: relative;
+    padding: 0 15px;
+}
+.form__input-wrapper.active {
+    border: 1px solid var(--main-blue, #2D1AA7)!important;
+}
+.form__input-wrapper label {
+    position: absolute;
+    top: calc(50% - 18px / 2);
+    left: 15px;
+    pointer-events: none;
+    transition: 0.2s ease;
+    color: #777;
+}
+
+.form__input-wrapper.active label {
+    top: 2px;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 14px;
+}
+.form__input-wrapper .review__form-input:focus-visible {
+    outline: none;
+}
